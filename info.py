@@ -13,7 +13,7 @@ id_pattern = re.compile(r'^.\d+$')
 SESSION = environ.get('SESSION', 'NGMoviesBot')
 API_ID = int(environ.get('API_ID', '21655208'))
 API_HASH = environ.get('API_HASH', '967c1a6159d164191f4d79022d557f92')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7745813306:AAHYtxcESg1hS0Vp-yC7JWMYToHf6D3pWLw")
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
