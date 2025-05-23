@@ -94,7 +94,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'suportgrup43') # Support Chat Link W
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/NGLINK1')
 
 # True Or False
-AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', False))
+AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
 PM_SEARCH = bool(environ.get('PM_SEARCH', True))
 BUTTON_MODE = bool(environ.get('BUTTON_MODE', True))
 MAX_BTN = bool(environ.get('MAX_BTN', True))
