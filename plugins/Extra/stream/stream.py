@@ -9,7 +9,7 @@ import random
 
 @Client.on_message(filters.private & filters.command("stream"))
 async def stream_start(client, message):
-    if STREAM_MODE == False:
+    if STREAM_MODE == True:
         return 
     msg = await client.ask(message.chat.id, "**Now send me your file/video to get stream and download link**")
     if not msg.media in [enums.MessageMediaType.VIDEO, enums.MessageMediaType.DOCUMENT]:
